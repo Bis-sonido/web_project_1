@@ -44,7 +44,6 @@
   z-index: 3;
   width: 388px;
   margin: 0;
-  align-items: flex-end;
   position: absolute;
   bottom: 30px;
   left: 64px;
@@ -53,12 +52,9 @@
   font-weight: normal;
 }
 .header__link{
-  width: 388px;
   text-decoration: none;
   color: #2f80ed;
   align-items: flex-end;
-  bottom: 30px;
-  left: 64px;
 
 }
 .header__main-illustration{
@@ -100,6 +96,7 @@
 .two-columns__main-text{
   display: flex;
   flex-direction: column;
+  min-width: 784px;
   width: 80%;
   line-height: 34px;
   font-size: 24px;
@@ -186,8 +183,8 @@
 .feynman__title{
   z-index: 2;
   max-width: 775px;
-  margin-top: 100px;
-  margin-bottom: 0;
+  padding-top: 100px;
+  margin: 0;
   text-align: center;
   align-self: center;
   line-height: 1.15;
@@ -223,7 +220,6 @@
   bottom: 0;
 }
 .kaufman{
-  color: white;
   overflow: hidden;
   background-color: #1f1f1f;
   display: flex;
@@ -231,47 +227,31 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 90px;
+  padding: 90px 0;
 }
 .section-title_theme_dark{
-  width: 60%;
-  margin-bottom: 0px;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: bold;
-  text-align: center;
+  color: white;
+  z-index: 2;
+  
 }
 .section-subtitle_theme_dark{
-  width: 60%;
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 0px;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
+  color: white;
+  z-index: 3;
+  
 }
 .table_theme_dark{
-  justify-content: space-between;
-  width: 1100px;
-  display: flex;
-  position: relative;
-  flex-wrap: wrap;
+  z-index: 4;
+  
 }
 .table__heading_theme_dark{
-  margin: 0;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
+  z-index: 5;
 }
 .table__text_theme_dark{
-  padding: 0;
-  margin-top: 20px;
-  margin-bottom: 0;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
+  z-index: 6;
 }
 .kaufman__triangle{
+  z-index: 1;
+  background-size: contain;
   background-image: url(../images/kaufman-triangle.svg);
   width: 877px;
   height: 877px;
@@ -332,19 +312,16 @@
   list-style-type: none;
 }
 .logo_place_footer{
-  display: flexbox;
   width: 183px;
   height: 35px;
 }
 .footer__author{
   margin-bottom: 18px 0;
-  display: flex;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
 }
 .footer__column-heading{
-  display: flex;
   margin-top: 0;
   margin-bottom: 0;
   line-height: 45px;
@@ -352,22 +329,17 @@
   font-weight: bold;
 }
 .footer__column-links{
-  color: #2f80ed;
+  color: white;
   padding: 0;
-  display: flex;
+  display: inline;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  flex-direction: column;
   list-style-type: none;
   text-decoration: none;
 }
-.footer__social-links{
-  display: flex;
-}
 .footer__social-icon{
-  text-decoration: none;
-  color: #2f80ed;
-  margin: 10px 0;
-  display: flex;
+  color: white;
+  margin: 0;
+  
 }
