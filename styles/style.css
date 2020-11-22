@@ -54,8 +54,6 @@
 .header__link{
   text-decoration: none;
   color: #2f80ed;
-  align-items: flex-end;
-
 }
 .header__main-illustration{
   display: flex;
@@ -172,6 +170,7 @@
 }
 .feynman{
   z-index: 0;
+  padding-top: 100px;
   background-color: #f2f2f2;
   display: flex;
   position: relative;
@@ -183,7 +182,6 @@
 .feynman__title{
   z-index: 2;
   max-width: 775px;
-  padding-top: 100px;
   margin: 0;
   text-align: center;
   align-self: center;
@@ -266,11 +264,6 @@
   padding: 0;
   width: 200px;
   color: white;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  list-style-type: none;
-  margin-right: 0;
   margin-top: 80px;
 }
 .footer{
@@ -336,6 +329,10 @@
   font-size: 18px;
   font-weight: normal;
   list-style-type: none;
+  text-decoration: none;
+}
+.footer__link{
+  color: white;
   text-decoration: none;
 }
 .footer__social-icon{
