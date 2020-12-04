@@ -1,0 +1,7 @@
+.resources__logo-zone-link{
+    transition: .5s ease-in-out;
+}
+
+.resources__logo-zone-link:hover{
+    opacity: .5;
+}

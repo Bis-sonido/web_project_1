@@ -1,0 +1,15 @@
+.footer__column-links{
+    color: white;
+    padding: 0;
+    display: inline;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    list-style-type: none;
+    text-decoration: none;
+    transition: .5s ease-in-out;
+  }
+
+  .footer__column-links:hover{
+    opacity: .5;
+  }
