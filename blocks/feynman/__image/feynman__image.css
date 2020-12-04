@@ -1,4 +1,5 @@
 .feynman__image{
+  object-fit: contain;
     width: 867px;
     height: 637px;
     z-index: 0;
