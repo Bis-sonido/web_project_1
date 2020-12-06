@@ -1,5 +1,4 @@
 .header__main-illustration{
-    display: flex;
     object-fit: contain;
     z-index: 1;
     width: 765px;
